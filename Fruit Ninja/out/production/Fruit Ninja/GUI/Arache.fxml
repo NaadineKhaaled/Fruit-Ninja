@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="anchorpane" prefHeight="397.0" prefWidth="601.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.Arache">
+   <children>
+      <Label fx:id="fagr" prefHeight="58.0" prefWidth="56.0" textFill="#e81a1a" AnchorPane.rightAnchor="500.0" AnchorPane.topAnchor="50.0" />
+      <ImageView fx:id="background2" fitHeight="775.0" fitWidth="661.0" layoutX="-7.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="watermelon" fitHeight="84.0" fitWidth="98.0" layoutX="6.0" layoutY="501.0" onMousePressed="#moveWatermelon" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="apple" fitHeight="84.0" fitWidth="98.0" layoutX="191.0" layoutY="526.0" onMouseClicked="#moveApple" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="pineapple" fitHeight="102.0" fitWidth="112.0" layoutX="420.0" layoutY="441.0" onMouseClicked="#movePine" pickOnBounds="true" preserveRatio="true" />
+      <Button fx:id="button1" layoutX="301.0" layoutY="15.0" mnemonicParsing="false" onAction="#buttonclick" text="Reset" AnchorPane.rightAnchor="308.0" AnchorPane.topAnchor="15.0" />
+      <ImageView fx:id="fruitSlice" fitHeight="84.0" fitWidth="84.0" layoutY="831.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="clock" fitHeight="68.0" fitWidth="76.0" layoutX="4.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true" />
+      <Label fx:id="maisoon" layoutX="84.0" layoutY="28.0" prefHeight="45.0" prefWidth="56.0" textFill="#f8e6e6">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="sr" fitHeight="84.0" fitWidth="146.0" layoutX="409.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true" />
+      <Label fx:id="labell" layoutX="570.0" layoutY="-1.0" prefHeight="58.0" prefWidth="84.0" textAlignment="CENTER" textFill="#f8eded">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="48.0" />
+         </font></Label>
+      <Label fx:id="label" layoutX="571.0" layoutY="58.0" prefHeight="32.0" prefWidth="76.0" textFill="#eeecec">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="36.0" />
+         </font></Label>
+      <Button fx:id="save" layoutX="171.0" layoutY="15.0" mnemonicParsing="false" onAction="#Save" text="Save" />
+      <Button fx:id="load" layoutX="240.0" layoutY="15.0" mnemonicParsing="false" onAction="#Load" text="Load" />
+      <Label layoutX="409.0" layoutY="60.0" prefHeight="43.0" prefWidth="166.0" text="Best Score" textFill="#1ab7eb">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="30.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

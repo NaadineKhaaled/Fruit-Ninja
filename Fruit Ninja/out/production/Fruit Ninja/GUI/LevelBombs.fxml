@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="anchorpane" prefHeight="471.0" prefWidth="683.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.LevelBombs">
+   <children>
+      <ImageView fx:id="background2" fitHeight="471.0" fitWidth="683.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="watermelon" fitHeight="57.0" fitWidth="119.0" layoutX="14.0" layoutY="471.0" onMouseClicked="#moveWatermelon" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="apple" fitHeight="68.0" fitWidth="127.0" layoutX="222.0" layoutY="453.0" onMouseClicked="#moveApple" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="pineapple" fitHeight="75.0" fitWidth="127.0" layoutX="550.0" layoutY="462.0" onMouseClicked="#movePine" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="fruitSlice" fitHeight="68.0" fitWidth="127.0" layoutX="193.0" layoutY="217.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="heart1" fitHeight="46.0" fitWidth="72.0" layoutX="378.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="heart2" fitHeight="46.0" fitWidth="72.0" layoutX="431.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="heart3" fitHeight="46.0" fitWidth="72.0" layoutX="503.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true" />
+      <Button fx:id="save" layoutX="257.0" layoutY="17.0" mnemonicParsing="false" onAction="#Save" text="Save" />
+      <Button fx:id="load" layoutX="321.0" layoutY="17.0" mnemonicParsing="false" onAction="#Load" text="Load" />
+      <Label fx:id="label" layoutX="170.0" layoutY="11.0" prefHeight="37.0" prefWidth="72.0" textFill="#eeeaea">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="26.0" />
+         </font></Label>
+      <Label fx:id="label1" layoutX="164.0" layoutY="48.0" prefHeight="46.0" prefWidth="72.0" textFill="#fcf8f8">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="24.0" />
+         </font></Label>
+      <Button fx:id="reset" layoutX="378.0" layoutY="17.0" mnemonicParsing="false" onAction="#reset" text="Reset" textFill="#111110" />
+      <ImageView fx:id="scoress" fitHeight="57.0" fitWidth="140.0" layoutX="17.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" />
+      <Label layoutX="24.0" layoutY="53.0" prefHeight="37.0" prefWidth="127.0" text="Best Score" textFill="#ebe705">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
